@@ -33,6 +33,7 @@ int main() {
       scanf("%f", &pib1);
     printf("Digite o número de pontos turísticos: ");
       scanf("%d", &pontosturisticos1);
+    printf("\n");
 
   // Carta 2
     printf("Digite os dados da segunda carta:\n");
@@ -51,13 +52,17 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
       scanf("%d", &pontosturisticos2);
     printf("\n");
+
+
   // Área para exibição dos dados da cidade
 
-    printf("O Código do estado da carta 1 é: %s. E da carta 2 é: %s\n", estadoa, estadob);
-    printf("O Código da carta 1 é: %s. E da carta 2 é: %s\n", codcarta1, codcarta2);
-    printf("A cidade da carta 1 é: %s. E da carta 2 é: %s\n", cidade1, cidade2);
-    printf("A população da carta 1 é: %.2f. E da carta 2 é: %.2f\n", populacao1, populacao2);
-    printf("A áreda da cidade da carta 1 é: %.2f KM². E da carta 2 é: %.2f KM²\n", area1, area2);
+    printf("O Código do estado da carta 1 é: %s. E da carta 2 é: %s.\n", estadoa, estadob);
+    printf("O Código da carta 1 é: %s. E da carta 2 é: %s.\n", codcarta1, codcarta2);
+    printf("A cidade da carta 1 é: %s. E da carta 2 é: %s.\n", cidade1, cidade2);
+    printf("A população da carta 1 é: %f. E da carta 2 é: %f.\n", populacao1, populacao2);
+    printf("A áreda da cidade da carta 1 é: %.2f KM². E da carta 2 é: %.2f KM².\n", area1, area2);
+    printf("O PIB da cidade da carta 1 é: %.2f. E da carta 2 é: %.2f.\n", pib1, pib2);
+    printf("A cidade da carta 1 tem %d pontos turísticos. E da carta 2 tem %d pontos turísticos.\n", pontosturisticos1, pontosturisticos2);
 
 return 0;
 } 
